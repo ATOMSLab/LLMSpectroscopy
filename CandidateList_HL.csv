@@ -1,21 +1,21 @@
-﻿molecular formula,Common name
-C4H10,butane
-C6H10,cyclohexene
-C7H10,cycloheptatriene
-C8H10,cyclooctatetraene
-C5H12,pentane
-C6H14,hexane
-C7H16,heptane
-C8H18 ,octane
-C9H20 ,nonane
-C10H22,decane
-C11H24,undecane
-C12H26,dodecane
-C13H28,tridecane
-C14H30,tetradecane
-C15H32 ,pentadecane
-C16H34,hexadecane
-C17H36,heptadecane
-C18H38,octadecane
-C19H40,nonadecane
-C20H42,icosane
+﻿molecular formula,CAS
+C4H10,106-97-8
+C6H10,110-83-8
+C7H10,108-88-3
+C8H10,100-42-5
+C5H12,109-66-0
+C6H14,110-54-3
+C7H16,142-82-5
+C8H18 ,111-65-9
+C9H20 ,111-84-2
+C4H8O,123-72-8
+C5H8O2,620-02-0
+C6H12O,108-94-1
+C8H8O ,93-56-1
+C9H20O ,124-19-6
+C5H11NO,79-16-3
+C6H11NO2,13059-12-0
+C7H12N2 ,39094-02-5
+C6H12O2,123-86-4
+C7H14O2,105-53-3
+C8H8O2,93-58-3
