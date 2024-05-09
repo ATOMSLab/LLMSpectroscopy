@@ -4,7 +4,7 @@ def select_nth_data_points(file_path, n, output_file):
     """
     Selects one out of every `n` data points from a CSV file and writes them to another CSV file.
     
-    Args:
+    Prameters:
         file_path (str): The path to the input CSV file.
         n (int): The interval for selecting data points (e.g., 1 out of every `n` points). Defaults to 1 (include all data points).
         output_file (str): The path to the output CSV file. Defaults to 'selected_data.csv'.
