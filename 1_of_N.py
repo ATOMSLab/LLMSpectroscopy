@@ -9,7 +9,7 @@ def select_nth_data_points(file_path, n, output_file):
         n (int): The interval for selecting data points (e.g., 1 out of every `n` points). Defaults to 1 (include all data points).
         output_file (str): The path to the output CSV file. Defaults to 'selected_data.csv'.
     
-    Returns:
+    Returns values:
         pd.DataFrame: A DataFrame containing the selected data points.
     """
     # Read the input CSV file
