@@ -1,13 +1,11 @@
 ﻿molecular formula,CAS,Common name
-C4H10,106-97-8,Butane
-C6H10,110-83-8,Cyclohexene 
-C7H10,108-88-3,Methylcyclohexane
-C8H10,100-42-5,Ethylbenzene 
-C5H12,109-66-0,Pentane
-C6H14,110-54-3,Hexane
-C7H16,142-82-5,Heptane
-C8H18 ,111-65-9,Octane
-C9H20 ,111-84-2,Nonane
+C6H10,513-81-5,"1,3-Butadiene, 2,3-dimethyl-"
+C7H10,4313-57-9,"1,4-Cyclohexadiene, 1-methyl-"
+C8H10,108-38-3,"Benzene, 1,3-dimethyl-"
+C5H12,78-78-4,"Butane, 2-methyl-"
+C6H14,107-83-5,"Pentane, 2-methyl-"
+C7H16,591-76-4,"Hexane, 2-methyl-"
+C8H18 , 540-84-1,"Pentane, 2,2,4-trimethyl-"
 C4H8O,123-72-8,Butanal
 C5H8O2,620-02-0,Butanoic acid
 C6H12O,108-94-1,Cyclohexanone
@@ -19,3 +17,5 @@ C7H12N2 ,39094-02-5,Piperazine
 C6H12O2,123-86-4,Ethyl methyl ketone
 C7H14O2,105-53-3,Heptyl acetate 
 C8H8O2,93-58-3,Terephthalic acid
+C13H18O2,15687-27-1,ibuprofen
+C9H13N,300-62-9,Amphetamine 
