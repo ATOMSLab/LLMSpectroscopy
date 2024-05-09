@@ -7,7 +7,8 @@ def load_list():
     return  csv.to_dict('records')
 
 def downloadMolecules(molecule):
-    url=f"https://webbook.nist.gov/cgi/cbook.cgi?JCAMP={molecule['CAS']}&Index=1&Type=IR"
+    #https://webbook.nist.gov/cgi/cbook.cgi?JCAMP=C2919235&Index=0&Type=IR
+    url=f"https://webbook.nist.gov/cgi/cbook.cgi?JCAMP={molecule['CAS']}&Type=IR"
     response = requests.get(url,stream=True)
     if response.status_code == 200:
         with open(f"./dataset/{molecule['molecular formula']}", "wb") as file:
