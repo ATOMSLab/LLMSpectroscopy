@@ -78,5 +78,9 @@ def transform_jdx_to_dataframe(jdx_file_path,csv_export_path,final_csv_path):
     transformed_df.to_csv(final_csv_path, index=False)
     #return transformed_df
 
+
+if __name__=="__main__":
+    transform_jdx
+
 # Example use-case:
 # transform_jdx_to_dataframe("79-16-3-IR.jdx","Wave.csv","transformed_data.csv")
