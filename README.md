@@ -1,6 +1,9 @@
 # LLMSpectroscopy
 Automated spectroscopy analysis for the 2024 LLM Hackathon for Applications in Materials and Chemistry
 
+## Results
+Final statistics on the dataset are stored in results.csv file
+
 ## Setting up the Project
 
 Follow these steps to set up the project on your local machine:
