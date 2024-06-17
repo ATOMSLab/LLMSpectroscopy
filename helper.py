@@ -2,6 +2,7 @@
 import requests
 from html.parser import HTMLParser
 import re
+import pandas as pd
 
 #i.e et_isomer_suggestion(C9H20O)
 def get_isomer_suggestion(molecule):
@@ -72,3 +73,15 @@ def cross_check_molecule(llmgeneration, correct_molecule):
     print("\033[91mThe molecules were not a match\033[0m")
     print(f"\033[94m_________________________________________________\n\n [INFO] llmgeneration: {llmgeneration} \n [INFO] Options of correct name :\n_________________________________________________\n","\033[0m","\n".join(options),'\n\033[94m_________________________________________________\033[0m\n')
     return False
+
+def check_batchData_output(file_path):
+    selected_cols = ['molecular formula','guess_answer','True answer'] 
+    df = pd.read_csv(file_path, usecols=selected_cols)
+    df.rename(columns={'molecular formula': 'Molecular formula',
+                                 'guess_answer': 'LLM answer'}, inplace=True)
+    df = df[['Molecular formula', 'LLM answer', 'True answer']]
+
+    df['Correct?'] = df.apply(lambda row: cross_check_molecule(row['LLM answer'], row['True answer']), axis=1)
+    
+    df['Correct?'] = df['Correct?'].map({True: 'Yes', False: 'No'})
+    return df.to_csv('results.csv', index=False)
